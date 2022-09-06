@@ -1,13 +1,18 @@
-import NavBar  from './components/navbar/NavBar.jsx'
-import Banner from './components/banner/Banner.jsx';
-
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import './App.css'
+// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+ 
 function App() {
   return (
     <>
-     <NavBar/>
-     <Banner/>
+      <Header/>
+      <main className="main">
+        <Home/>
+        <About/>
+      </main>
     </>
-   
   );
 }
 
