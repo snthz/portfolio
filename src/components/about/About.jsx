@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/about.jpg'
-import CV from '../../assets/Smith-Cv.pdf'
+import AboutImg from '../../assets/profile.jpg'
+import CV from '../../assets/Axl-CV.pdf'
 import Info from './Info'
 
 const About = () => {
@@ -15,14 +15,14 @@ const About = () => {
                     <Info/>
 
                     <p className="about__description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime officiis deleniti reiciendis temporibus voluptates excepturi, rerum aut aliquid reprehenderit
-                        sequi? Nostrum libero ducimus provident vero ad cum ipsam quasi dolorum?
+                    Hello, I'm Axl, I live in Honduras, I'm a big fan of challenges, I'm always willing to continue learning, I love programming since I was 17 years old; 
+                    I knew that I would dedicate myself to this and I started learning since then and I hope to continue growing in this area.
                     </p>
                     
                     <a download='' href={CV} className="button button__flex">
                         Download CV
                         <svg
-                            class="button__icon"
+                            className="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
                             height="24"

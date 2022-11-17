@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "site" : "snthz",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
